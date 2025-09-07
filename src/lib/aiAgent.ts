@@ -1,5 +1,6 @@
 import axios from 'axios';
-import { config } from '../config.ts';
+import { config } from '../config';
+import { config } from '../../config';
 
 // Rate limiting helper
 class RateLimiter {
