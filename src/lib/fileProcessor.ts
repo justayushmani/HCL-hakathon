@@ -1,5 +1,5 @@
 // File processing utility for reading files locally without storage
-import { config } from '../../config.ts';
+import { config } from '../config.ts';
 
 export interface ProcessedFile {
   id: string;
